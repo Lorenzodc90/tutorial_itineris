@@ -1,0 +1,5 @@
+
+
+if after uninstalling miniconda cmd.exe starts malfunctioning, open powershell and execute the following line:
+
+Reg Delete "HKCU\Software\Microsoft\Command Processor" /v AutoRun /f
