@@ -72,7 +72,7 @@ The files FFNN_3D_ITINERIS_TRAINING.py and LSTM_3D_ITINERIS_TRAINING.py respecti
 
 Running the FFNN and LSTM programs will start the training of the network. Once the training is completed, the network is tested and the resulting errors are saved to images.
 
-
+An in-depth documentation of the code is beyond the scope fo this readme, so look at them yourself.
 
 
 
