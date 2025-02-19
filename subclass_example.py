@@ -6,19 +6,9 @@ class myLeakyReLU(tf.keras.layers.Layer):
         super().__init__()
         self.alpha = alpha
 
-    # Create the state of the layer (weights)
+    # Create the state of the layer 
     # def build(self, input_shape):
-    #     self.kernel = self.add_weight(
-    #         shape=(input_shape[-1], self.units),
-    #         initializer="glorot_uniform",
-    #         trainable=True,
-    #         name="kernel",
-    #     )
-    #     self.bias = self.add_weight(
-    #         shape=(self.units,),
-    #         initializer="zeros",
-    #         trainable=True,
-    #         name="bias",
+    #     necessary initializations are put here
     #     )
 
     # Defines the computation
